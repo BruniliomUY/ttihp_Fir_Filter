@@ -19,7 +19,7 @@ project:
   source_files:
     - "tt_um_bruniliomuy_top.v"
     - "filtro_fir.v"
-    - "hysync_generator.v"
+    - "hvsync_generator.v"
     - "SatTruncFP.v"
     - "uart_tx.v"
     - "wave_buffer.v"
