@@ -20,6 +20,7 @@ project:
     - "tt_um_bruniliomuy_top.v"
     - "filtro_fir.v"
     - "hysync_generator.v"
+    - "SatTruncFP.v"
     - "uart_tx.v"
     - "wave_buffer.v"
     - "wave_plot.v" 
