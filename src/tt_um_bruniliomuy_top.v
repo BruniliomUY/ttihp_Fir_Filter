@@ -61,8 +61,8 @@ end
 
 
 filtro_fir u_fir (
-  .o_os_data (fir_output),      // salida del filtro -> la guardo en este wire
-  .i_is_data (ui_in),          // entrada del filtro <- viene del pin físico
+  .o_data    (fir_output),      // salida del filtro -> la guardo en este wire
+  .i_data    (ui_in),          // entrada del filtro <- viene del pin físico
   .i_filter_sel (uio_in[2:1]), // 2 bits externos eligen el filtro
   .i_en      (sample_tick),           // habilitado siempre
   .i_srst    (!rst_n),         // reset invertido (rst_n es activo en bajo)

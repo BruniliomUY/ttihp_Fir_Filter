@@ -6,7 +6,17 @@ SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+
+# Todos los fuentes RTL del proyecto (orden no importa para icarus,
+# pero los dejamos en orden jerárquico por claridad)
+PROJECT_SOURCES = \
+	tt_um_bruniliomuy_top.v \
+	filtro_fir.v \
+	SatTruncFP.v \
+	hvsync_generator.v \
+	wave_buffer.v \
+	wave_plot.v \
+	uart_tx.v
 
 ifneq ($(GATES),yes)
 
