@@ -6,8 +6,12 @@
 //!
 //! - Fir filter with 15 coefficients, pipelined adder tree (arquitectura original de 15 taps)
 //! - Se agrega i_filter_sel[1:0] para elegir entre 4 bancos de coeficientes:
-//!     00 -> Pasa-altos
+//!     00 -> Pasa-altos# Diseño del filtro: pasa-bajos de 15 taps
+//!        banda de paso: 0 - 1000 Hz
+//!        banda de rechazo: 1500 - 4000 Hz
 //!     01 -> Pasa-bajos
+//!        banda de paso: 0 - 1000 Hz
+//!        banda de rechazo: 1500 - 4000 Hz
 //!     10 -> Pasa-todo
 //!     11 -> Notch
 //! - **i_srst** es el reset del sistema.

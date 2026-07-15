@@ -28,14 +28,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui_in[0]: "Signal to filter[0]"
-  ui_in[1]: "Signal to filter[1]"
-  ui_in[2]: "Signal to filter[2]"
-  ui_in[3]: "Signal to filter[3]"
-  ui_in[4]: "Signal to filter[4]"
-  ui_in[5]: "Signal to filter[5]"
-  ui_in[6]: "Signal to filter[6]"
-  ui_in[7]: "Signal to filter[7]"
+  ui[0]: "Signal to filter[0]"
+  ui[1]: "Signal to filter[1]"
+  ui[2]: "Signal to filter[2]"
+  ui[3]: "Signal to filter[3]"
+  ui[4]: "Signal to filter[4]"
+  ui[5]: "Signal to filter[5]"
+  ui[6]: "Signal to filter[6]"
+  ui[7]: "Signal to filter[7]"
 
   # Outputs
   uo[0]: "b[1]"
